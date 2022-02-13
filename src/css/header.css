@@ -1,0 +1,64 @@
+.header {
+    height: 100px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon-listen-music {
+    margin-left: 60px;
+}
+
+.amount-people-listen {
+    margin: 0;
+    margin-left: 12px;
+    font-size: 18px;
+    color: #373B53;
+}
+
+.right-component {
+    margin-right: 80px;
+}
+
+.txt-username {
+    font-size: 14px;
+    color: #2E3B52;
+    margin: 12px 12px 4px 0px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.txt-job {
+    font-size: 12px;
+    color: #A6ACBE;
+    margin: 0px 12px 4px 0px;
+    text-align: right;
+}
+
+.btn-dropdown {
+    margin-left: 8px;
+    background-color: #ffffff;
+    border: 0;
+    cursor: pointer;
+}
+
+.border-left {
+    border-left: 1px solid #EFF4F6;
+    height: 64px;
+    margin-left: 24px;
+}
+
+.btn-notification {
+    margin-left: 24px;
+    background-color: #ffffff;
+    border: 0;
+    cursor: pointer;
+}
+
+.btn-avatar {
+    background-color: #ffffff;
+    border: 0;
+    cursor: pointer;
+}
+

@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    height: 1080px;
+    width: 1920px;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.main-page {
+    background-color: #E5E5E5;
+}
+
+.button {
+    height: 20px;
+}
+
+.align-center-vertical{
+    display: flex;
+    align-items: center;
+}
