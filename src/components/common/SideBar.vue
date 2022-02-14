@@ -5,7 +5,7 @@
         src="../../assets/images/logo.png"
         width="72"
         height="54"
-        @click="logoutClick"
+        @click="homeClick"
       />
     </button>
 
@@ -15,7 +15,7 @@
           src="../../assets/icons/home.png"
           width="22"
           height="22"
-          @click="logoutClick"
+          @click="homeClick"
         />
       </button>
       <button class="btn_sidebar_option">
@@ -23,7 +23,7 @@
           src="../../assets/icons/chart.png"
           width="22"
           height="22"
-          @click="logoutClick"
+          @click="chartClick"
         />
       </button>
       <button class="btn_sidebar_option">
@@ -31,7 +31,7 @@
           src="../../assets/icons/files.png"
           width="22"
           height="22"
-          @click="logoutClick"
+          @click="fileClick"
         />
       </button>
       <button class="btn_sidebar_option">
@@ -39,13 +39,13 @@
           src="../../assets/icons/chat.png"
           width="22"
           height="22"
-          @click="logoutClick"
+          @click="chatClick"
         />
       </button>
     </div>
     <hr />
     <div class="footer-sidebar">
-      <button class="btn-help txt-language">Help</button>
+      <button class="btn-help txt-language" @click="helpClick">Help</button>
       <select class="select-language txt-language">
         <option class="txt-language">EN</option>
         <option class="txt-language">VI</option>
@@ -64,6 +64,23 @@ export default {
       job: "Artist",
     };
   },
+  methods: {
+    homeClick(){
+      alert("Clicked home");
+    },
+    chartClick(){
+      alert("Clicked chart");
+    },
+    fileClick(){
+      alert("Clicked file");
+    },
+    chatClick(){
+      alert("Clicked chat");
+    },
+    helpClick(){
+      alert("Clicked help");
+    },
+  }
 };
 </script>
 
